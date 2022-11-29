@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "602093128190",
+    "project_id": "cabbooking-9371e",
+    "storage_bucket": "cabbooking-9371e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602093128190:android:366d5cb27df0d9a6b518af",
+        "android_client_info": {
+          "package_name": "com.isut.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602093128190-lis616jr7t354a84mqdog3951j0g208s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isut.customer",
+            "certificate_hash": "f19ebdb9205957404854ec385f5d6643438314cb"
+          }
+        },
+        {
+          "client_id": "602093128190-t6bfi3nnrc489gum9jl23laupbahnijq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-nMdbVQQ2cjKne-FioOgNfppvEvMRgXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602093128190-t6bfi3nnrc489gum9jl23laupbahnijq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602093128190:android:f18ded761c7c831bb518af",
+        "android_client_info": {
+          "package_name": "com.tukla.www.tukla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602093128190-t6bfi3nnrc489gum9jl23laupbahnijq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-nMdbVQQ2cjKne-FioOgNfppvEvMRgXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602093128190-t6bfi3nnrc489gum9jl23laupbahnijq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602093128190:android:2cfc8d111fa0cf10b518af",
+        "android_client_info": {
+          "package_name": "com.turaco.cabdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602093128190-t6bfi3nnrc489gum9jl23laupbahnijq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-nMdbVQQ2cjKne-FioOgNfppvEvMRgXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602093128190-t6bfi3nnrc489gum9jl23laupbahnijq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

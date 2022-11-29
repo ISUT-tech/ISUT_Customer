@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReferFriendActivity">
+    <RelativeLayout
+        android:id="@+id/toolbaar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightsize_60dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refer as Friend"
+        android:textSize="@dimen/heightsize_14dp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbaar"
+        app:layout_constraintBottom_toBottomOf="@id/toolbaar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consts"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbaar"
+        android:layout_height="@dimen/heightsize_250dp"
+        android:background="@color/design_default_color_primary">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imageView24"
+            android:layout_width="@dimen/heightsize_150dp"
+            android:layout_height="@dimen/heightsize_150dp"
+            android:src="@drawable/isut"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:civ_border_color="@color/white"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/editImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Modifier ma photo de profil"
+            android:textColor="#fef7f1"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/imageView24"
+            app:layout_constraintStart_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/etemamil"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightsize_50dp"
+        android:layout_marginLeft="@dimen/heightsize_20dp"
+        android:layout_marginTop="@dimen/heightsize_15dp"
+        android:layout_marginRight="@dimen/heightsize_20dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/editbox"
+        android:hint="Enter Email"
+        app:layout_constraintTop_toBottomOf="@+id/consts"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/heightsize_12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="@dimen/textsize_12sp"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DVGD45"
+        android:textSize="@dimen/textsize_18sp"
+        android:textColor="@color/colorFont"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/sas"
+        app:layout_constraintRight_toRightOf="@+id/sas"
+        app:layout_constraintBottom_toBottomOf="@+id/sas"
+        app:layout_constraintTop_toTopOf="@id/sas" />
+    <ImageView
+        android:id="@+id/sas"
+        android:layout_width="@dimen/heightsize_150dp"
+        android:layout_height="@dimen/heightsize_100dp"
+        android:layout_marginTop="@dimen/heightsize_100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/ticket"
+        app:layout_constraintTop_toBottomOf="@id/consts"
+       />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refer To Friend"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/heightsize_20dp"
+        android:layout_marginLeft="@dimen/heightsize_20dp"
+        android:layout_marginRight="@dimen/heightsize_20dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

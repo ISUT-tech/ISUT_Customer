@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ISUT Customer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="fontSize">24sp</string>
+    <string name="fontFamily">Roboto</string>
+    <string name="google_maps_key">AIzaSyAH-h5u10d4u4CF4lNSUKNE2WSLkzW9otQ</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="formatted_place_data">
+        Name: %1$s\nAddress: %2$s\nPhone: %3$s\nWebsite: %4$s\nRating: %5$s\nId: %6$s\n
+    </string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="enter_cabno">Please Enter Your Cab No.</string>
+    <string name="enter_cabname">Please Enter Your Cab Name/Model</string>
+    <string name="enter_linsence">Please Enter Your Lincense No.</string>
+    <string name="invalid_mail">Please enter a valid email address</string>
+    <string name="enter_mail">Please Enter Your Email Id</string>
+    <string name="enter_pass">Please Enter Your Password</string>
+    <string name="enter_cnf">Password Do not match</string>
+    <string name="enterloc">Please Enter Your Location</string>
+    <string name="enter_phone">Please Enter Your Mobile Number</string>
+
+
+</resources>
